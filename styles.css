@@ -97,12 +97,30 @@ button,
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
   color: var(--ink);
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 900;
   letter-spacing: 0;
   white-space: nowrap;
+}
+
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  object-fit: contain;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid color-mix(in oklch, var(--border) 76%, var(--surface));
+}
+
+.footer-brand .brand-logo {
+  width: 54px;
+  height: 54px;
 }
 
 .main-nav ul,
