@@ -1,23 +1,23 @@
 :root {
   color-scheme: light;
-  --bg: oklch(99% 0.006 330);
-  --bg-soft: oklch(97% 0.018 340);
+  --bg: oklch(99% 0.006 78);
+  --bg-soft: oklch(96% 0.024 78);
   --surface: oklch(100% 0 0);
-  --surface-soft: oklch(98% 0.018 340);
-  --surface-strong: oklch(94% 0.03 345);
-  --surface-warm: oklch(97% 0.018 30);
-  --ink: oklch(24% 0.026 330);
-  --ink-strong: oklch(18% 0.03 330);
-  --muted: oklch(45% 0.025 330);
-  --accent: oklch(51% 0.13 8);
-  --accent-deep: oklch(38% 0.11 8);
-  --accent-fill: oklch(93% 0.055 8);
-  --accent-soft: oklch(95% 0.045 8);
-  --accent-pale: oklch(98% 0.025 8);
-  --cool-soft: oklch(96% 0.026 265);
-  --border: oklch(87% 0.028 340);
-  --shadow: 0 8px 14px oklch(48% 0.06 340 / 0.10);
-  --image-shadow: 0 16px 34px oklch(28% 0.04 330 / 0.16);
+  --surface-soft: oklch(98% 0.012 78);
+  --surface-strong: oklch(93% 0.032 78);
+  --surface-warm: oklch(96% 0.026 78);
+  --ink: oklch(25% 0.026 72);
+  --ink-strong: oklch(18% 0.028 72);
+  --muted: oklch(43% 0.024 72);
+  --accent: oklch(52% 0.065 72);
+  --accent-deep: oklch(34% 0.052 72);
+  --accent-fill: oklch(91% 0.052 78);
+  --accent-soft: oklch(95% 0.04 78);
+  --accent-pale: oklch(98% 0.018 78);
+  --cool-soft: oklch(97% 0.014 78);
+  --border: oklch(86% 0.03 78);
+  --shadow: 0 8px 14px oklch(52% 0.045 72 / 0.10);
+  --image-shadow: 0 16px 34px oklch(34% 0.035 72 / 0.14);
   --radius: 16px;
   --page-pad: 1rem;
 }
@@ -669,7 +669,7 @@ button,
   padding: 2rem;
   border-radius: var(--radius);
   background:
-    radial-gradient(circle at 10% 10%, oklch(98% 0.035 8), transparent 20rem),
+    radial-gradient(circle at 10% 10%, var(--accent-soft), transparent 20rem),
     var(--surface);
   color: var(--ink);
   border: 1px solid var(--border);
@@ -818,7 +818,7 @@ button,
   display: none;
   place-items: center;
   padding: 1.25rem;
-  background: oklch(98% 0.015 340 / 0.88);
+  background: oklch(98% 0.014 78 / 0.9);
   backdrop-filter: blur(14px);
   z-index: 40;
 }
@@ -831,7 +831,7 @@ button,
   max-width: min(920px, 100%);
   max-height: 78dvh;
   border-radius: var(--radius);
-  box-shadow: 0 24px 80px oklch(48% 0.06 340 / 0.22);
+  box-shadow: 0 24px 80px oklch(46% 0.045 72 / 0.20);
 }
 
 .gallery-modal p {
@@ -849,8 +849,8 @@ button,
   height: 44px;
   border: 1px solid color-mix(in oklch, white 30%, transparent);
   border-radius: 999px;
-  background: oklch(99% 0.004 330);
-  color: oklch(18% 0.02 330);
+  background: var(--surface);
+  color: var(--ink-strong);
   cursor: pointer;
   font-weight: 900;
 }
