@@ -1,73 +1,68 @@
 const serviceData = [
   {
-    title: "Acrylic and BIAB - Full Set",
+    title: "Natural Nail",
     items: [
-      { name: "Full Set Acrylic With Gel Polish", duration: "40 mins", price: "&pound;38.00" },
-      { name: "Full Set Acrylic With Normal Colour", duration: "40 mins", price: "&pound;30.00" },
-      { name: "Full Set Acrylic With White Tip", duration: "45 mins", price: "&pound;42.00" },
-      { name: "Full Set Builder Gel (BIAB)", duration: "40 mins", price: "&pound;35.00" },
-      { name: "Full Set Builder Gel (BIAB) With White Tip", duration: "45 mins", price: "&pound;38.00" },
-      { name: "Full Set Ombre Powder", duration: "40 mins", price: "&pound;38.00" },
-      { name: "Full Set Pink and White", duration: "45 mins", price: "&pound;43.00" },
-      { name: "Full Set Acrylic - 2 Big Toes", duration: "30 mins", price: "&pound;10.00" },
-      { name: "Full Set Acrylic on Toes With Gel Polish", duration: "45 mins", price: "&pound;40.00" },
-      { name: "Full Set BIAB Extensions", duration: "40 mins", price: "&pound;38.00" }
+      { name: "Manicure", price: "&pound;15" },
+      { name: "Pedicure", price: "&pound;28" },
+      { name: "Manicure and Pedicure", price: "&pound;40" },
+      { name: "French Manicure", price: "&pound;18" }
     ]
   },
   {
-    title: "Acrylic and BIAB - Infill",
+    title: "Gel Colour",
     items: [
-      { name: "Infill Acrylic With Gel Polish", duration: "40 mins", price: "&pound;28.00" },
-      { name: "Infill Acrylic With Normal Colour", duration: "35 mins", price: "&pound;22.00" },
-      { name: "Infill Acrylic With White Tip", duration: "45 mins", price: "&pound;32.00" },
-      { name: "Infill Builder Gel (BIAB)", duration: "40 mins", price: "&pound;30.00" },
-      { name: "Infill Builder Gel (BIAB) With White Tip", duration: "40 mins", price: "&pound;33.00" },
-      { name: "Infill Dipping Powder", duration: "40 mins", price: "&pound;30.00" },
-      { name: "Infill Ombre Powder", duration: "40 mins", price: "&pound;30.00" },
-      { name: "Infill Acrylic - 2 Big Toes", duration: "25 mins", price: "&pound;5.00" },
-      { name: "Infill for Acrylic on Toes With Gel Polish", duration: "45 mins", price: "&pound;30.00" }
+      { name: "Shellac Nail", price: "&pound;20" },
+      { name: "Manicure with shellac", price: "&pound;28" },
+      { name: "Shellac Toes", price: "&pound;25" },
+      { name: "Pedicure with shellac", price: "&pound;38" },
+      { name: "BIAB", price: "&pound;35" }
     ]
   },
   {
-    title: "Pedicure and Manicure",
+    title: "Nail Extensions - Acrylic",
+    columns: ["Full set", "Full in"],
     items: [
-      { name: "Pedicure With Gel Polish", duration: "45 mins", price: "&pound;38.00" },
-      { name: "Pedicure With Normal Polish", duration: "45 mins", price: "&pound;30.00" },
-      { name: "Manicure With Gel Polish", duration: "30 mins", price: "&pound;28.00" },
-      { name: "Manicure With Normal Polish", duration: "30 mins", price: "&pound;15.00" },
-      { name: "Pedicure and Manicure With Gel Polish", duration: "60 mins", price: "&pound;65.00" },
-      { name: "Pedicure and Manicure With Normal Polish", duration: "60 mins", price: "&pound;45.00" },
-      { name: "Take Off and Manicure With Gel Polish", duration: "30 mins", price: "&pound;30.00" },
-      { name: "Take Off and Manicure With Normal Polish", duration: "30 mins", price: "&pound;20.00" }
+      { name: "Acrylic", fullSet: "&pound;30", fullIn: "&pound;22" },
+      { name: "Acrylic with shellac", fullSet: "&pound;38", fullIn: "&pound;28" },
+      { name: "Acrylic overlay", fullSet: "&pound;30", fullIn: "&pound;22" },
+      { name: "Acrylic overlay with shellac", fullSet: "&pound;38", fullIn: "&pound;28" },
+      { name: "Take off new set", fullSet: "&pound;35", fullIn: "" },
+      { name: "Take off new set with shellac", fullSet: "&pound;43", fullIn: "" }
     ]
   },
   {
-    title: "Natural Nails",
+    title: "Nail Extensions - Gel, Pink and White, Ombre",
+    columns: ["Full set", "Full in"],
     items: [
-      { name: "Shellac on Hands", duration: "30 mins", price: "&pound;20.00" },
-      { name: "Shellac on Hands With White Tip", duration: "30 mins", price: "&pound;23.00" },
-      { name: "Shellac on Toes", duration: "30 mins", price: "&pound;25.00" },
-      { name: "Normal Colour on Hands", duration: "30 mins", price: "&pound;12.00" },
-      { name: "Normal Colour on Toes", duration: "30 mins", price: "&pound;15.00" },
-      { name: "Take Off and Renew Shellac", duration: "30 mins", price: "&pound;25.00" }
+      { name: "Gel", fullSet: "&pound;33", fullIn: "&pound;28" },
+      { name: "Gel with shellac", fullSet: "&pound;40", fullIn: "&pound;33" },
+      { name: "Gel overlay", fullSet: "&pound;33", fullIn: "&pound;28" },
+      { name: "Gel overlay with shellac", fullSet: "&pound;40", fullIn: "&pound;33" },
+      { name: "Take off new set", fullSet: "&pound;38", fullIn: "" },
+      { name: "Take off new set with shellac", fullSet: "&pound;43", fullIn: "" },
+      { name: "Pink and white", fullSet: "&pound;40", fullIn: "&pound;33" },
+      { name: "Take off new set pink & white", fullSet: "&pound;45", fullIn: "" },
+      { name: "Ombre", fullSet: "&pound;40", fullIn: "&pound;33" },
+      { name: "Take off new set ombre", fullSet: "&pound;45", fullIn: "" },
+      { name: "Dipping powder", fullSet: "&pound;30", fullIn: "" },
+      { name: "Take off new set SNS", fullSet: "&pound;35", fullIn: "" }
     ]
   },
   {
-    title: "Removal Services",
+    title: "Extra",
     items: [
-      { name: "Take Off Acrylic", duration: "20 mins", price: "&pound;12.00" },
-      { name: "Take Off Gel Colour", duration: "25 mins", price: "&pound;10.00" }
-    ]
-  },
-  {
-    title: "Take Off and New Set",
-    items: [
-      { name: "Take Off and New Set Acrylic With Gel Polish", duration: "60 mins", price: "&pound;43.00" },
-      { name: "Take Off and New Set Acrylic With Normal Colour", duration: "60 mins", price: "&pound;35.00" },
-      { name: "Take Off and New Set Builder Gel (BIAB)", duration: "60 mins", price: "&pound;40.00" },
-      { name: "Take Off and New Set Acrylic on Toes With Gel Polish", duration: "50 mins", price: "&pound;45.00" },
-      { name: "Take Off and New Set Ombre Powder", duration: "60 mins", price: "&pound;43.00" },
-      { name: "Take Off and New Set Pink and White", duration: "60 mins", price: "&pound;43.00" }
+      { name: "Polish change (hand)", price: "&pound;10" },
+      { name: "Polish change (toes)", price: "&pound;12" },
+      { name: "Take off (gel, acrylic and shellac)", price: "&pound;10" },
+      { name: "Take off and manicure", price: "&pound;20" },
+      { name: "Nail cut", price: "&pound;5" },
+      { name: "Toes nail cut", price: "&pound;7" },
+      { name: "Nail repair (per nail)", price: "&pound;3" },
+      { name: "Nail art design from", price: "&pound;5" },
+      { name: "Gem (x10)", price: "&pound;3" },
+      { name: "Full set toes", price: "&pound;40" },
+      { name: "Full set toes with shellac", price: "&pound;45" },
+      { name: "1 toes nail", price: "&pound;5" }
     ]
   }
 ];
@@ -152,19 +147,36 @@ function createServiceSection() {
     `;
 
     const itemsContainer = details.querySelector(".service-items");
+    if (category.columns) {
+      const headerEl = document.createElement("div");
+      headerEl.className = "service-row service-row-header";
+      headerEl.innerHTML = `
+        <span>Service</span>
+        <span>${category.columns[0]}</span>
+        <span>${category.columns[1]}</span>
+      `;
+      itemsContainer.appendChild(headerEl);
+    }
+
     category.items.forEach((item) => {
       const itemEl = document.createElement("article");
-      itemEl.className = "service-item";
-      itemEl.innerHTML = `
-        <div class="service-meta">
+      itemEl.className = category.columns ? "service-row service-item" : "service-item";
+      if (category.columns) {
+        itemEl.innerHTML = `
           <strong>${item.name}</strong>
-          <span>${item.duration}</span>
-        </div>
-        <div class="service-cost">
-          <strong>${item.price}</strong>
-          <span>Cash only</span>
-        </div>
-      `;
+          <span>${item.fullSet || "-"}</span>
+          <span>${item.fullIn || "-"}</span>
+        `;
+      } else {
+        itemEl.innerHTML = `
+          <div class="service-meta">
+            <strong>${item.name}</strong>
+          </div>
+          <div class="service-cost">
+            <strong>${item.price}</strong>
+          </div>
+        `;
+      }
       itemsContainer.appendChild(itemEl);
     });
 
