@@ -44,7 +44,6 @@ const serviceData = [
       { name: "Take off new set pink & white", fullSet: "&pound;45", fullIn: "" },
       { name: "Ombre", fullSet: "&pound;40", fullIn: "&pound;33" },
       { name: "Take off new set ombre", fullSet: "&pound;45", fullIn: "" },
-      { name: "Dipping powder", fullSet: "&pound;30", fullIn: "" },
       { name: "Take off new set SNS", fullSet: "&pound;35", fullIn: "" }
     ]
   },
@@ -52,16 +51,9 @@ const serviceData = [
     title: "Extra",
     items: [
       { name: "Polish change (hand)", price: "&pound;10" },
-      { name: "Polish change (toes)", price: "&pound;12" },
-      { name: "Take off (gel, acrylic and shellac)", price: "&pound;10" },
-      { name: "Take off and manicure", price: "&pound;20" },
-      { name: "Nail cut", price: "&pound;5" },
-      { name: "Toes nail cut", price: "&pound;7" },
       { name: "Nail repair (per nail)", price: "&pound;3" },
       { name: "Nail art design from", price: "&pound;5" },
       { name: "Gem (x10)", price: "&pound;3" },
-      { name: "Full set toes", price: "&pound;40" },
-      { name: "Full set toes with shellac", price: "&pound;45" },
       { name: "1 toes nail", price: "&pound;5" }
     ]
   }
@@ -69,52 +61,76 @@ const serviceData = [
 
 const galleryItems = [
   {
-    src: "assets/images/ai-gallery-biab.webp",
-    alt: "Glossy BIAB manicure with nude pink and deep rose polish",
-    label: "BIAB rose gloss",
-    note: "Short-to-medium length with a polished finish."
+    src: "1.jpg",
+    alt: "Black and nude detailed nail art with floral accents",
+    label: "Black floral detail",
+    note: "Statement accents with a glossy sculpted finish."
   },
   {
-    src: "assets/images/ai-hero-salon.webp",
-    alt: "Nude manicure on a clean salon table with polish bottles",
-    label: "Soft nude manicure",
-    note: "Clean prep and a calm everyday colour."
+    src: "2.jpg",
+    alt: "Long almond nails with dark chrome and floral detailing",
+    label: "Dark chrome flowers",
+    note: "High-shine colour with delicate art work."
   },
   {
-    src: "assets/images/ai-pedicure.webp",
-    alt: "Pedicure setup with polished toes and salon polish bottles",
-    label: "Fresh pedicure",
-    note: "A tidy finish for sandal days and holidays."
+    src: "3.jpg",
+    alt: "Pink sculpted nail set with floral details and glossy tips",
+    label: "Pink sculpted set",
+    note: "Soft pink length with raised floral accents."
   },
   {
-    src: "assets/images/ai-service-detail.webp",
-    alt: "Nail technician filing a client's nails at a salon table",
-    label: "Shaping detail",
-    note: "A careful shape before colour goes on."
+    src: "4.jpg",
+    alt: "Long pink stiletto nails with detailed flower art",
+    label: "Pink stiletto art",
+    note: "Sharp length with layered floral detail."
   },
   {
-    src: "assets/images/gallery-chrome-idea.webp",
-    alt: "Chrome manicure with reflective pearl nails at a salon table",
-    label: "Chrome idea",
-    note: "A brighter finish for a sharper look."
+    src: "5.jpg",
+    alt: "Long almond nails with tortoiseshell and gold accents",
+    label: "Tortoiseshell tips",
+    note: "Warm detail with a polished almond shape."
   },
   {
-    src: "assets/images/gallery-fine-line-art.webp",
-    alt: "Fine line nail art on nude gel nails at a salon table",
-    label: "Fine line art",
-    note: "Subtle detail without a heavy design."
+    src: "6.jpg",
+    alt: "Bronze chrome almond nails with metallic highlights",
+    label: "Bronze chrome",
+    note: "Reflective tones for a sharp evening look."
   },
   {
-    src: "assets/images/gallery-white-french-tips.webp",
-    alt: "Classic white French tip manicure on a salon table",
-    label: "White French tips",
-    note: "A clean classic for most nail lengths."
+    src: "7.jpg",
+    alt: "Chrome almond nail set with olive and pink reflective polish",
+    label: "Olive chrome",
+    note: "Mirror shine with a neat almond silhouette."
   },
   {
-    src: "assets/images/gallery-natural-nails.webp",
-    alt: "Short natural nude manicure with tidy cuticles at a salon table",
-    label: "Natural nails",
-    note: "Simple colour with a neat natural shape."
+    src: "8.jpg",
+    alt: "Brown glossy almond nails with soft curved French tips",
+    label: "Brown gloss tips",
+    note: "A smooth curved finish with rich colour."
+  },
+  {
+    src: "9.jpg",
+    alt: "Silver chrome stiletto nails with reflective pointed tips",
+    label: "Silver chrome points",
+    note: "Bright metallic shine on a long pointed shape."
+  },
+  {
+    src: "10.jpg",
+    alt: "Glossy white and gold almond nail set with sculpted flower detail",
+    label: "White gold flower",
+    note: "Pearl tones with gold accents and floral texture."
+  },
+  {
+    src: "11.jpg",
+    alt: "Soft pink transparent nails with raised flower designs",
+    label: "Transparent florals",
+    note: "Light pink detail with a glassy finish."
+  },
+  {
+    src: "12.jpg",
+    alt: "Yellow and white floral nail art on long square tips",
+    label: "Yellow floral set",
+    note: "Fresh colour with bright floral details."
   }
 ];
 
