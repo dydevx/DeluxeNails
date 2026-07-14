@@ -4,8 +4,7 @@ const serviceData = [
     items: [
       { name: "Manicure", price: "&pound;15" },
       { name: "Pedicure", price: "&pound;28" },
-      { name: "Manicure and Pedicure", price: "&pound;40" },
-      { name: "French Manicure", price: "&pound;18" }
+      { name: "Manicure and Pedicure", price: "&pound;40" }
     ]
   },
   {
@@ -20,7 +19,7 @@ const serviceData = [
   },
   {
     title: "Nail Extensions - Acrylic",
-    columns: ["Full set", "Full in"],
+    columns: ["Full set", "In Fill"],
     items: [
       { name: "Acrylic", fullSet: "&pound;30", fullIn: "&pound;22" },
       { name: "Acrylic with shellac", fullSet: "&pound;38", fullIn: "&pound;28" },
@@ -31,7 +30,7 @@ const serviceData = [
     ]
   },
   {
-    title: "Nail Extensions - Gel, Pink and White, Ombre",
+    title: "Nail Extensions - Gel and Ombre",
     columns: ["Full set", "Full in"],
     items: [
       { name: "Gel", fullSet: "&pound;33", fullIn: "&pound;28" },
@@ -40,17 +39,13 @@ const serviceData = [
       { name: "Gel overlay with shellac", fullSet: "&pound;40", fullIn: "&pound;33" },
       { name: "Take off new set", fullSet: "&pound;38", fullIn: "" },
       { name: "Take off new set with shellac", fullSet: "&pound;43", fullIn: "" },
-      { name: "Pink and white", fullSet: "&pound;40", fullIn: "&pound;33" },
-      { name: "Take off new set pink & white", fullSet: "&pound;45", fullIn: "" },
       { name: "Ombre", fullSet: "&pound;40", fullIn: "&pound;33" },
-      { name: "Take off new set ombre", fullSet: "&pound;45", fullIn: "" },
-      { name: "Take off new set SNS", fullSet: "&pound;35", fullIn: "" }
+      { name: "Take off new set ombre", fullSet: "&pound;45", fullIn: "" }
     ]
   },
   {
     title: "Extra",
     items: [
-      { name: "Polish change (hand)", price: "&pound;10" },
       { name: "Nail repair (per nail)", price: "&pound;3" },
       { name: "Nail art design from", price: "&pound;5" },
       { name: "Gem (x10)", price: "&pound;3" },
