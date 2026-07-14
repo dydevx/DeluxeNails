@@ -31,7 +31,7 @@ const serviceData = [
   },
   {
     title: "Nail Extensions - Gel and Ombre",
-    columns: ["Full set", "Full in"],
+    columns: ["Full set", "Fill in"],
     items: [
       { name: "Gel", fullSet: "&pound;33", fullIn: "&pound;28" },
       { name: "Gel with shellac", fullSet: "&pound;40", fullIn: "&pound;33" },
