@@ -1,131 +1,201 @@
 const serviceData = [
   {
-    title: "Natural Nail",
+    title: "Full Set",
     items: [
-      { name: "Manicure", price: "&pound;15" },
-      { name: "Pedicure", price: "&pound;28" },
-      { name: "Manicure and Pedicure", price: "&pound;40" }
+      { name: "Acrylic with Gel", price: "&pound;38" },
+      { name: "Ombre Powder", price: "&pound;38" },
+      { name: "Acrylic with French Tip", price: "&pound;42" },
+      { name: "Acrylic with Normal Polish", price: "&pound;30" },
+      { name: "Acrylic Toes with Gel", price: "&pound;40" },
+      { name: "Take Off & New Set with Gel", price: "&pound;43" },
+      { name: "Take Off & New Set Ombre", price: "&pound;43" },
+      { name: "BIAB on Natural Nails", price: "&pound;35" },
+      { name: "BIAB Extensions", price: "&pound;38" },
+      { name: "Take Off & New Set with Normal Polish", price: "&pound;35" }
     ]
   },
   {
-    title: "Gel Colour",
+    title: "Infill",
     items: [
-      { name: "Shellac Nail", price: "&pound;20" },
-      { name: "Manicure with shellac", price: "&pound;28" },
-      { name: "Shellac Toes", price: "&pound;25" },
-      { name: "Pedicure with shellac", price: "&pound;38" },
-      { name: "BIAB", price: "&pound;35" }
+      { name: "Acrylic with Gel", price: "&pound;28" },
+      { name: "Ombre Powder", price: "&pound;30" },
+      { name: "Acrylic with French Tip", price: "&pound;32" },
+      { name: "Acrylic with Normal Polish", price: "&pound;32" },
+      { name: "BIAB", price: "&pound;30" },
+      { name: "Acrylic Toes with Gel", price: "&pound;30" }
     ]
   },
   {
-    title: "Nail Extensions - Acrylic",
-    columns: ["Full set", "In Fill"],
+    title: "Natural Nails",
     items: [
-      { name: "Acrylic", fullSet: "&pound;30", fullIn: "&pound;22" },
-      { name: "Acrylic with shellac", fullSet: "&pound;38", fullIn: "&pound;28" },
-      { name: "Acrylic overlay", fullSet: "&pound;30", fullIn: "&pound;22" },
-      { name: "Acrylic overlay with shellac", fullSet: "&pound;38", fullIn: "&pound;28" },
-      { name: "Take off new set", fullSet: "&pound;35", fullIn: "" },
-      { name: "Take off new set with shellac", fullSet: "&pound;43", fullIn: "" }
+      { name: "Gel Colour", price: "&pound;20" },
+      { name: "Manicure with Gel", price: "&pound;28" },
+      { name: "Pedicure with Gel", price: "&pound;38" },
+      { name: "Combo Manicure + Pedicure with Gel", price: "&pound;65" },
+      { name: "Take Off & Redo", price: "&pound;25" },
+      { name: "Manicure with Normal Polish", price: "&pound;15" },
+      { name: "Pedicure with Normal Polish", price: "&pound;30" },
+      { name: "Combo Manicure + Pedicure with Normal Polish", price: "&pound;42" }
     ]
   },
   {
-    title: "Nail Extensions - Gel and Ombre",
-    columns: ["Full set", "Fill in"],
+    title: "Design Extra",
     items: [
-      { name: "Gel", fullSet: "&pound;33", fullIn: "&pound;28" },
-      { name: "Gel with shellac", fullSet: "&pound;40", fullIn: "&pound;33" },
-      { name: "Gel overlay", fullSet: "&pound;33", fullIn: "&pound;28" },
-      { name: "Gel overlay with shellac", fullSet: "&pound;40", fullIn: "&pound;33" },
-      { name: "Take off new set", fullSet: "&pound;38", fullIn: "" },
-      { name: "Take off new set with shellac", fullSet: "&pound;43", fullIn: "" },
-      { name: "Ombre", fullSet: "&pound;40", fullIn: "&pound;33" },
-      { name: "Take off new set ombre", fullSet: "&pound;45", fullIn: "" }
-    ]
-  },
-  {
-    title: "Extra",
-    items: [
-      { name: "Nail repair (per nail)", price: "&pound;3" },
-      { name: "Nail art design from", price: "&pound;5" },
-      { name: "Gem (x10)", price: "&pound;3" },
-      { name: "1 toes nail", price: "&pound;5" }
+      { name: "Nail Art + Design", price: "From &pound;5" },
+      { name: "Nail Repair", price: "From &pound;3" },
+      { name: "Extra-Long Length", price: "From &pound;5" },
+      { name: "Diamond Gem (x10)", price: "From &pound;3" },
+      { name: "Chrome Nails", price: "From &pound;5" },
+      { name: "Cat Eye Colour", price: "From &pound;5" },
+      { name: "Acrylic 2 Big Toes", price: "From &pound;10" }
     ]
   }
 ];
 
 const galleryItems = [
   {
-    src: "1.jpg",
-    alt: "Black and nude detailed nail art with floral accents",
-    label: "Black floral detail",
-    note: "Statement accents with a glossy sculpted finish."
+    src: "assets/images/new-nails/nail-02.jpg",
+    alt: "Long pink stiletto nails with bright tropical flower art",
+    label: "Tropical pink",
+    note: "Bright florals on a sharp sculpted shape."
   },
   {
-    src: "2.jpg",
-    alt: "Long almond nails with dark chrome and floral detailing",
-    label: "Dark chrome flowers",
-    note: "High-shine colour with delicate art work."
+    src: "assets/images/new-nails/nail-03.jpg",
+    alt: "Turquoise, black and nude square nail art with gold details",
+    label: "Turquoise framing",
+    note: "Graphic colour framed with crisp dark tips."
   },
   {
-    src: "3.jpg",
-    alt: "Pink sculpted nail set with floral details and glossy tips",
-    label: "Pink sculpted set",
-    note: "Soft pink length with raised floral accents."
+    src: "assets/images/new-nails/nail-04.jpg",
+    alt: "Soft pastel almond nails with delicate coloured tips",
+    label: "Pastel almond",
+    note: "A soft everyday set with subtle colour."
   },
   {
-    src: "4.jpg",
-    alt: "Long pink stiletto nails with detailed flower art",
-    label: "Pink stiletto art",
-    note: "Sharp length with layered floral detail."
+    src: "assets/images/new-nails/nail-05.jpg",
+    alt: "Long nude stiletto nails with vivid red curved line art",
+    label: "Red linework",
+    note: "High-impact red curves on a nude base."
   },
   {
-    src: "5.jpg",
-    alt: "Long almond nails with tortoiseshell and gold accents",
-    label: "Tortoiseshell tips",
-    note: "Warm detail with a polished almond shape."
+    src: "assets/images/new-nails/nail-06.jpg",
+    alt: "Pink, red and gold almond nails with heart details",
+    label: "Heart accents",
+    note: "Playful details with a polished gold finish."
   },
   {
-    src: "6.jpg",
-    alt: "Bronze chrome almond nails with metallic highlights",
-    label: "Bronze chrome",
-    note: "Reflective tones for a sharp evening look."
+    src: "assets/images/new-nails/nail-07.jpg",
+    alt: "Long floral nails with lilac flowers and gold embellishments",
+    label: "Lilac florals",
+    note: "Layered flowers and fine metallic details."
   },
   {
-    src: "7.jpg",
-    alt: "Chrome almond nail set with olive and pink reflective polish",
-    label: "Olive chrome",
-    note: "Mirror shine with a neat almond silhouette."
+    src: "assets/images/new-nails/nail-08.jpg",
+    alt: "Square French nails with pink flowers and animal print tips",
+    label: "Floral animal print",
+    note: "Detailed tips balanced by a natural base."
   },
   {
-    src: "8.jpg",
-    alt: "Brown glossy almond nails with soft curved French tips",
-    label: "Brown gloss tips",
-    note: "A smooth curved finish with rich colour."
+    src: "assets/images/new-nails/nail-09.jpg",
+    alt: "Long yellow and pink nails with flowers and animal print",
+    label: "Butter yellow art",
+    note: "Warm colour with statement floral details."
   },
   {
-    src: "9.jpg",
-    alt: "Silver chrome stiletto nails with reflective pointed tips",
-    label: "Silver chrome points",
-    note: "Bright metallic shine on a long pointed shape."
+    src: "assets/images/new-nails/nail-12.jpg",
+    alt: "Short square nails with pink, yellow and green curved details",
+    label: "Pastel curves",
+    note: "A colourful design on a practical short shape."
   },
   {
-    src: "10.jpg",
-    alt: "Glossy white and gold almond nail set with sculpted flower detail",
-    label: "White gold flower",
-    note: "Pearl tones with gold accents and floral texture."
+    src: "assets/images/new-nails/nail-14.jpg",
+    alt: "Long stiletto French nails with black and gold graphic tips",
+    label: "Graphic French",
+    note: "Sharp monochrome tips with gold highlights."
   },
   {
-    src: "11.jpg",
-    alt: "Soft pink transparent nails with raised flower designs",
-    label: "Transparent florals",
-    note: "Light pink detail with a glassy finish."
+    src: "assets/images/new-nails/nail-15.jpg",
+    alt: "Square nude French nails with black lace and silver gems",
+    label: "Black lace French",
+    note: "Classic nude with detailed dark accents."
   },
   {
-    src: "12.jpg",
-    alt: "Yellow and white floral nail art on long square tips",
-    label: "Yellow floral set",
-    note: "Fresh colour with bright floral details."
+    src: "assets/images/new-nails/nail-16.jpg",
+    alt: "Long pink stiletto nails with black and white tip art",
+    label: "Pink statement tips",
+    note: "Bold pointed tips with a soft pink base."
+  },
+  {
+    src: "assets/images/new-nails/nail-17.jpg",
+    alt: "Pink almond nails with black French details and raised flowers",
+    label: "Raised florals",
+    note: "Sculpted flower art with graphic French tips."
+  },
+  {
+    src: "assets/images/new-nails/nail-19.jpg",
+    alt: "Long blush square nails with silver chrome details",
+    label: "Blush chrome",
+    note: "Soft colour sharpened with metallic accents."
+  },
+  {
+    src: "assets/images/new-nails/nail-20.jpg",
+    alt: "Short pink square nails with fine black French details",
+    label: "Fine French detail",
+    note: "A neat short set with precise line work."
+  },
+  {
+    src: "assets/images/new-nails/nail-21.jpg",
+    alt: "Pastel square nails with colourful wavy French tips",
+    label: "Pastel waves",
+    note: "Fresh curved colour on a clean nude base."
+  },
+  {
+    src: "assets/images/new-nails/nail-22.jpg",
+    alt: "Pink French manicure with dotted tips and floral accent nails",
+    label: "Dotted French",
+    note: "Soft pink tips with a delicate flower accent."
+  },
+  {
+    src: "assets/images/new-nails/nail-23.jpg",
+    alt: "Brown and white chrome almond nails with curved abstract tips",
+    label: "Mocha chrome",
+    note: "Reflective neutral tones with curved detailing."
+  },
+  {
+    src: "assets/images/new-nails/nail-24.jpg",
+    alt: "Long pink stiletto nails with flowers and silver line art",
+    label: "Pink silver florals",
+    note: "Fine metallic lines around bold flower art."
+  },
+  {
+    src: "assets/images/new-nails/nail-27.jpg",
+    alt: "Glossy nude nails with bright coral flame tips",
+    label: "Coral flames",
+    note: "A vivid tip treatment on a natural base."
+  },
+  {
+    src: "assets/images/new-nails/nail-28.jpg",
+    alt: "Neutral almond nails with sculpted gold chrome details",
+    label: "Sculpted gold",
+    note: "Warm metallic accents with a refined neutral base."
+  },
+  {
+    src: "assets/images/new-nails/nail-31.jpg",
+    alt: "Pink almond nails with striped and swirled French art",
+    label: "Pink ribbon tips",
+    note: "Layered pink linework on a glossy almond shape."
+  },
+  {
+    src: "assets/images/new-nails/nail-01.jpg",
+    alt: "Green almond nails with raised flowers and silver details",
+    label: "Emerald florals",
+    note: "Rich green detail with a soft sculpted finish."
+  },
+  {
+    src: "assets/images/new-nails/nail-18.jpg",
+    alt: "Long lilac and nude nails with flowers and gold embellishments",
+    label: "Lilac garden",
+    note: "Layered floral art with delicate gold accents."
   }
 ];
 

@@ -8,7 +8,7 @@ brand
 Local clients in and around Buckingham who want reliable nail care, clear prices, and an easy way to call or find the salon before visiting.
 
 ## Product Purpose
-Deluxe Nails is a one-page salon website that helps visitors understand the services, check hours, see examples of finishes, and book by phone. Success means the visitor feels confident about quality, price, location, and cash-only payment before arriving.
+DELUXE NAILS & SPA is a one-page salon website that helps visitors understand the services, check hours, see examples of finishes, and book by phone. Success means the visitor feels confident about quality, price, location, and cash-only payment before arriving.
 
 ## Brand Personality
 Precise, calm, polished. The brand should feel clean and attentive rather than ornate, generic, or overly decorative.
